@@ -1,0 +1,35 @@
+{
+  "name": "basic-react-app",
+  "packageManager": "yarn@3.2.0",
+  "scripts": {
+    "dev": "webpack serve --hot --mode=development",
+    "build": "webpack --mode=production",
+    "start": "webpack serve --mode=production",
+    "lint": "eslint src/** && prettier --write src/**"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8",
+    "@types/prettier": "^2",
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "next",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-n": "^15.0.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.6.0",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
